@@ -1,0 +1,109 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  }
+h1,h2,h3,h4,h5,h6,p,section {
+    text-align: center;
+    color: white;
+  }
+.bg-img {
+  background-image: url(https://st2.indiarailinfo.com/kjfdsuiemjvcya4/0/2/4/1/3687241/16/img20180805174402hdr627093.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  opacity: .85;
+}
+
+/* navbar */
+.logo {
+  width: 50%;
+  border-radius: 100%;
+}
+.navbar-nav {
+  padding-bottom: 50px;
+}
+.nav-item {
+  padding-left: 20px;
+}
+.nav-link {
+  font-weight: bold;
+}
+
+/* title-section */
+
+.title {
+  /* background-color: rgb(176,196,222,0.6); */
+  /* background-color: #3f3f44; */
+  /* background-color: #d4f3ef; */
+  /* background-color: #333333; */
+  padding: 5%;
+}
+.title-head {
+  font-family: 'Leckerli One', cursive;
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 3rem;
+}
+
+
+
+/* buttons */
+
+.myButton {
+	box-shadow: 3px 4px 9px -2px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:9px;
+	border:2px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	font-weight:bold;
+	padding:9px 18px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #528ecc;
+  margin: 9px 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* explore-section */
+
+#explore {
+  /* background-color: #d4f3ef; */
+  background: linear-gradient(to bottom, #000000, #333333, grey, #ffffff);
+  padding-bottom: 2rem;
+}
+.carousel-img {
+  width: 40%;
+  height: 40%;
+  padding-bottom: 3rem;
+
+}
+
+
+/* footer-section */
+#footer {
+  background-color: #000;
+  padding-top: 2%;
+}
+.links {
+  margin: 5px;
+}
+.link-div {
+  margin: 5px 5px;
+}
+.copyright {
+  color: grey;
+  padding-top: 1rem;
+}
